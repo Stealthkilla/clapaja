@@ -24,7 +24,10 @@
 1. [Janik] Syntax für INSERT bereitstellen
 1. [Janik] Optimieren für UNIQUE
 1. [Manuel] Datenbank für Benutzer/Zitate erstellen
-1. [Claudia] Einstiegsseite erstellen
+1. [Manuel] Datenbank-Benutzer erstellen
+1. [Claudia/Manuel/Janik] Einstiegsseite erstellen
+1. [Janik] Struktogramm erstellen
+1. [Claudia/Manuel/Janik] Daten-API bereitstellen
 
 #### 20.11.2017 (Sprint 3)
 1. Task 1
@@ -44,9 +47,13 @@
 
 # Dones
 #### 06.11.2017 (Sprint 1)
-1. Task 1
-1. Task 1
-1. Task 1
+1. [Stephan/Claudia/Janik] Definition of Done
+1. [Stephan/Claudia/Janik] User Stories 
+1. [Stephan] github einrichten 
+1. [Stephan] To Do Liste erstellen
+1. [Janik] Akzeptanzkriterium
+1. [Stephan/Claudia/Janik] Lesson Learnend (jeder für sich) 
+1. [Stephan] Coding Style Richtlinien
 
 #### 13.11.2017 (Sprint 2)
 1. [Manuel] Datenmodell erstellen (Zitate)
@@ -54,6 +61,10 @@
 1. [Janik] Syntax für INSERT bereitstellen
 1. [Janik] Optimieren für UNIQUE
 1. [Manuel] Datenbank für Benutzer/Zitate erstellen
+1. [Manuel] Datenbank-Benutzer erstellt
+1.
+1. [Janik] Struktogramm erstellt
+1.
 
 #### 20.11.2017 (Sprint 3)
 1. Task 1
