@@ -3,7 +3,7 @@ header("Content-Type: text/html; charset=utf-8");
 
 // Datenbank Variablen
 $datenbank = 'citationdb';
-$abfrage = 'SELECT * FROM citation';
+$abfrage = 'SELECT * FROM citation WHERE ID = 1';
 
 require_once ('inc/db_inc.php');
 
@@ -13,6 +13,7 @@ mysqli_set_charset($verbindung, "utf8");
 
 // Datenbank-Abfrage
 $res = mysqli_query ($verbindung, $abfrage);
+$zitat = mysqli_fetch_assoc($res);
 
 // Verbindung trennen
 mysqli_close ($verbindung);
@@ -31,6 +32,9 @@ mysqli_close ($verbindung);
 		<link href="css/layout.css" type="text/css" rel="Stylesheet" />
 	</head>
 	<body>
-
+		<div>
+			<h1><?php $zitat[quote] ?></h1>
+			<h3><?php $zitat[author] ?></h3>
+		</div>
 	</body>
 </html>
