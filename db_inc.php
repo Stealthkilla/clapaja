@@ -1,6 +1,6 @@
 <?php
-  $host = 'localhost';
-  $user = 'quotout';
-  $passwd = 'qu0t_';
-  $datenbank = 'citationdb';
+   $host = 'educati3.mysql.db.hostpoint.ch:3306';
+   $datenbank = 'educati3_citationdb';
+   $user = 'educati3_quote';
+   $passwd = 'qu0t_';
 ?>
