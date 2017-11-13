@@ -49,9 +49,11 @@
 1. Task 1
 
 #### 13.11.2017 (Sprint 2)
-1. Task 1
+1. [Manuel] Datenmodell erstellen (Zitate)
 1. [Claudia] Zitate sammeln
-1. Task 1
+1. [Janik] Syntax für INSERT bereitstellen
+1. [Janik] Optimieren für UNIQUE
+1. [Manuel] Datenbank für Benutzer/Zitate erstellen
 
 #### 20.11.2017 (Sprint 3)
 1. Task 1
