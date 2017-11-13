@@ -50,7 +50,7 @@
 
 #### 13.11.2017 (Sprint 2)
 1. Task 1
-1. Task 1
+1. [Claudia] Zitate sammeln
 1. Task 1
 
 #### 20.11.2017 (Sprint 3)
