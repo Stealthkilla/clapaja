@@ -1,7 +1,7 @@
 | Sprint   | Planned   | Remaining  | Done  |
 |:--------:|:---------:|:----------:|:-----:|
-| 1        | xx        | xx         | xx    |
-| 2        | xx        | xx         | xx    |
+| 1        | 7         | 0          | 7     |
+| 2        | 9         | 1          | 8     |
 | 3        | xx        | xx         | xx    |
 | 4        | xx        | xx         | xx    |
 | 5        | xx        | xx         | xx    |
