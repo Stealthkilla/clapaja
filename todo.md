@@ -2,11 +2,9 @@
 |:--------:|:---------:|:----------:|:-----:|
 | 1        | 7         | 0          | 7     |
 | 2        | 9         | 1          | 8     |
-| 3        | xx        | xx         | xx    |
+| 3        | 8         | 2          | 6     |
 | 4        | xx        | xx         | xx    |
-| 5        | xx        | xx         | xx    |
-
-
+| 5        | xx        | xx         | xx    |
 
 # Todo
 #### 06.11.2017 (Sprint 1)
@@ -31,11 +29,13 @@
 
 #### 20.11.2017 (Sprint 3)
 1. [Claudia] Login Seite & Einträge hinzufügen
-1. [Stephan] Seite Responsive
+1. [Stephan] Seite Responsive machen
 1. [Manuel] Erweitern der Einstiegsseite
 1. [Stephan] Data PHP erstellen und erweitern
 1. [Manuel] GitHub aktuell halten
-1. [] Daten API bereitstellen
+1. [Manuel] Datenbank ausbauen, neue Entitäten und Tabellen hinzufügen.
+1. [Claudia] Dokumentation weiter ausbauen
+1. [Claudia/Manuel/Stephan] Daten-API bereitstellen
 
 #### 27.11.2017 (Sprint 4)
 1. Task 1
@@ -65,15 +65,16 @@
 1. [Janik] Optimieren für UNIQUE
 1. [Manuel] Datenbank für Benutzer/Zitate erstellen
 1. [Manuel] Datenbank-Benutzer erstellt
-1.
 1. [Janik] Struktogramm erstellt
-1.
 
 #### 20.11.2017 (Sprint 3)
-1. Task 1
-1. Task 1
-1. Task 1
-
+1. [Claudia] Login Seite & Einträge hinzufügen
+1. [Stephan] Seite Responsive machen
+1. [Manuel] Erweitern der Einstiegsseite
+1. [Stephan] Data PHP erstellen und erweitern
+1. [Manuel] GitHub aktuell halten
+1. [Manuel] Datenbank ausbauen, neue Entitäten und Tabellen hinzufügen.
+1. [Claudia] Dokumentation weiter ausbauen
 
 #### 27.11.2017 (Sprint 4)
 1. Task 1
