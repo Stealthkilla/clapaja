@@ -9,8 +9,9 @@ $datenbank = 'educati3_citationdb';
 require_once ('inc/db_inc.php');
 
 // Zur Datenbank verbinden
-$verbindung = mysqli_connect ($host, $user, $passwd , $datenbank) or die ('Fehler mysqli_connect(): ' . mysqli_error($verbindung));
-mysqli_set_charset($verbindung, "utf8");
+//$verbindung = mysqli_connect ($host, $user, $passwd , $datenbank) or die ('Fehler mysqli_connect(): ' . mysqli_error($verbindung));
+//mysqli_set_charset($verbindung, "utf8");
+require_once ('inc/connect.php');
 
 //	Datanbank abfrage Anzahl Zitate
 //$abfrage = "Count(ID), quote FROM citation AS 'number' ";
