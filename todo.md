@@ -31,7 +31,7 @@
 
 #### 20.11.2017 (Sprint 3)
 1. [Claudia] Login Seite & Einträge hinzufügen
-1. [Stephan] Seite Responsive
+1. [Stephan] Seite Responsive machen
 1. [Manuel] Erweitern der Einstiegsseite
 1. [Stephan] Data PHP erstellen und erweitern
 1. [Manuel] GitHub aktuell halten
@@ -71,7 +71,7 @@
 
 #### 20.11.2017 (Sprint 3)
 1. [Claudia] Login Seite & Einträge hinzufügen
-1. [Stephan] Seite Responsive
+1. [Stephan] Seite Responsive machen
 1. [Manuel] Erweitern der Einstiegsseite
 1. [Stephan] Data PHP erstellen und erweitern
 1. [Manuel] GitHub aktuell halten
