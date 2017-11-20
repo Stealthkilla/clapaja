@@ -21,9 +21,13 @@ mysqli_set_charset($verbindung, "utf8");
 
 
 // Datenbank-Abfrage Zitat abrufen
-$abfrage = "SELECT * FROM citation WHERE ID = 1 ";
-$res = mysqli_query ($verbindung, $abfrage);
-$zitat = mysqli_fetch_assoc($res);
+$abfrage = mysql_query("SELECT * FROM citation ORDER BY RAND() LIMIT 1");
+while($rand = mysql_fetch_assoc($qry)){
+	echo $rand['zitat'];
+	//echo $rand['pic'];
+}
+// $res = mysqli_query ($verbindung, $abfrage);
+// $zitat = mysqli_fetch_assoc($res);
 
 // Verbindung trennen
 mysqli_close ($verbindung);
