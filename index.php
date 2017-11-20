@@ -1,3 +1,38 @@
+<<<<<<< HEAD
+=======
+<?php
+
+header("Content-Type: text/html; charset=utf-8; refresh:5; url=index.php");
+
+
+// Datenbank Variablen
+$datenbank = 'educati3_citationdb';
+
+require_once ('inc/db_inc.php');
+
+// Zur Datenbank verbinden
+//$verbindung = mysqli_connect ($host, $user, $passwd , $datenbank) or die ('Fehler mysqli_connect(): ' . mysqli_error($verbindung));
+//mysqli_set_charset($verbindung, "utf8");
+require_once ('inc/connect.php');
+
+//	Datanbank abfrage Anzahl Zitate
+//$abfrage = "Count(ID), quote FROM citation AS 'number' ";
+//$res = mysqli_query ($verbindung, $abfrage);
+//$number = mysqli_fetch_assoc($res);
+
+//$Id = rand(1,$number[number]);
+
+
+// Datenbank-Abfrage Zitat abrufen
+$abfrage = mysqli_query($verbindung, "SELECT ID, quote, author, birthdate FROM citation ORDER BY RAND() LIMIT 1" );
+$zitat = mysqli_fetch_assoc($abfrage);
+
+// Verbindung trennen
+mysqli_close ($verbindung);
+
+?>
+
+>>>>>>> 33a54e95f7c815440be76fcb061fc82ad7adb9ab
 <!DOCTYPE html>
 <html lang ="de-CH">
 	<head>
