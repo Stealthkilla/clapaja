@@ -1,4 +1,5 @@
 <?php 
+/*
 header("Content-Type: text/html; charset=utf-8; refresh:5; url=index.php");
 
 
@@ -26,20 +27,23 @@ $zitat = mysqli_fetch_assoc($res);
 
 // Verbindung trennen
 mysqli_close ($verbindung);
-
+*/
 ?>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!DOCTYPE html>
 <html lang ="de-CH">
 	<head>
 		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="A website who shows various zitate with author">
 		<meta name="language" content="DE">
 		<meta http-equiv="refresh" content="5;url=index.php">
 		
 		<title>Zitate</title>
 		
-		<link href="css/layout.css" type="text/css" rel="Stylesheet" />
+		<link href="css/layout.css" type="text/css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 	</head>
 	<body>
 		<div id="zitatbox">
