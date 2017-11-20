@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 header("Content-Type: text/html; charset=utf-8; refresh:5; url=index.php");
 
 
@@ -22,8 +23,10 @@ mysqli_set_charset($verbindung, "utf8");
 // Datenbank-Abfrage Zitat abrufen
 $abfrage = mysqli_query($verbindung, "SELECT ID, quote, author, birthdate FROM citation ORDER BY RAND() LIMIT 1" );
 $zitat = mysqli_fetch_assoc($abfrage);
+
 // Verbindung trennen
 mysqli_close ($verbindung);
+
 ?>
 
 <!DOCTYPE html>
@@ -35,16 +38,18 @@ mysqli_close ($verbindung);
 		<meta name="description" content="A website who shows various zitate with author">
 		<meta name="language" content="DE">
 		<meta http-equiv="refresh" content="5;url=index.php">
-		
 		<title>Zitate</title>
-		
 		<link href="css/layout.css" type="text/css" rel="stylesheet">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 	</head>
 	<body>
-		<div id="zitatbox">
-			<h1><?php echo $zitat[quote] ?></h1>
+		<div class="container">
+ 			<div class="jumbotron vertical-center">
+    		<h1><?php echo $zitat[quote] ?></h1>
 			<h3><?php echo $zitat[author] ?></h3>
-		</div>
+  			</div>
+  		</div>
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  		<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
