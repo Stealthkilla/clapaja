@@ -20,11 +20,8 @@ mysqli_set_charset($verbindung, "utf8");
 
 
 // Datenbank-Abfrage Zitat abrufen
-$abfrage = mysqli_query("SELECT quote, author, birthdate FROM citation ORDER BY RAND() LIMIT 1");
-while($rand = mysqli_fetch_assoc($qry)){
-	echo $rand['zitat'];
-	//echo $rand['pic'];
-}
+$abfrage = mysqli_query("SELECT ID, quote, author, birthdate FROM citation ORDER BY RAND() LIMIT 0" );
+
 // $res = mysqli_query ($verbindung, $abfrage);
 // $zitat = mysqli_fetch_assoc($res);
 // Verbindung trennen
