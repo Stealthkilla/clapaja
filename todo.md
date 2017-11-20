@@ -76,7 +76,7 @@
 1. [Stephan] Data PHP erstellen und erweitern
 1. [Manuel] GitHub aktuell halten
 1. [Manuel] Datenbank ausbauen, neue Entitäten und Tabellen hinzufügen.
-
+1. [Claudia] Dokumentation weiter ausbauen
 
 #### 27.11.2017 (Sprint 4)
 1. Task 1
