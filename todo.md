@@ -30,9 +30,9 @@
 1. [Claudia/Manuel/Janik] Daten-API bereitstellen
 
 #### 20.11.2017 (Sprint 3)
-1. Task 1
-1. Task 1
-1. Task 1
+1. [Claudia] Login Seite & Einträge hinzufügen
+1. [Stephan] Seite Responsive
+1. [Manuel] Erweitern der Einstiegsseite
 
 #### 27.11.2017 (Sprint 4)
 1. Task 1
