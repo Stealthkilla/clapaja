@@ -33,6 +33,9 @@
 1. [Claudia] Login Seite & Einträge hinzufügen
 1. [Stephan] Seite Responsive
 1. [Manuel] Erweitern der Einstiegsseite
+1. [Stephan] Data PHP erstellen und erweitern
+1. [Manuel] GitHub aktuell halten
+1. [] Daten API bereitstellen
 
 #### 27.11.2017 (Sprint 4)
 1. Task 1
