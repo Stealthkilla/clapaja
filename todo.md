@@ -2,7 +2,7 @@
 |:--------:|:---------:|:----------:|:-----:|
 | 1        | 7         | 0          | 7     |
 | 2        | 9         | 1          | 8     |
-| 3        | 7         | 1          | 6     |
+| 3        | 8         | 2          | 6     |
 | 4        | xx        | xx         | xx    |
 | 5        | xx        | xx         | xx    |
 
@@ -36,6 +36,7 @@
 1. [Stephan] Data PHP erstellen und erweitern
 1. [Manuel] GitHub aktuell halten
 1. [Manuel] Datenbank ausbauen, neue Entitäten und Tabellen hinzufügen.
+1. [Claudia] Dokumentation weiter ausbauen
 1. [Claudia/Manuel/Stephan] Daten-API bereitstellen
 
 #### 27.11.2017 (Sprint 4)
