@@ -17,28 +17,32 @@ html, body {
 }
 
 h1 {
-	color: #FFFFFF;
-	font-family: "Century Gothic";
-	font-size: 20px;
+	color: #000000;
+	font-family: "Arial";
+	font-size: 30px;
 	text-align: center;
 	padding-top: 50px;
 }
 
-h3 {
-	color: #FFFFFF;
-	font-family: "Century Gothic";
+p {
+	color: #000000;
+	font-family: "Arial";
 	font-size: 15px;
-	text-align: right;
 	padding-right: 50px;
 }
 
 .jumbotron.vertical-center {
-  margin-bottom: 0; /* Remove the default bottom margin of .jumbotron */
+	  margin-bottom: 0; /* Remove the default bottom margin of .jumbotron */
+
 }
 
 .vertical-center {
-  min-height: 60%;  /* Fallback for vh unit */
-  min-height: 100vh;
+	padding-top: 100px;
+    padding-bottom: 100px;
+	background: grey;
+	opacity: 0.8;
+  	min-height: 100%;  /* Fallback for vh unit */
+  	min-height: 100vh;
 
   /* Make it a flex container */
   display: -webkit-box;
