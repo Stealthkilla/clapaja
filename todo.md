@@ -38,11 +38,12 @@
 1. [Claudia/Manuel/Stephan] Daten-API bereitstellen
 
 #### 27.11.2017 (Sprint 4)
-1. Ejects, Daten-API einbinden [Stephan/Manuel]
-1. Testfälle schreiben [Janik]
-1. Testprotokolle schreiben und durchführen [Janik]
-1. SQL injections [Claudia]
-1. Kundenwünsche von Sprint 3 umsetzen [Alle]
+1. [Stephan/Manuel] Ejects, Daten-API einbinden 
+1. [Janik] Testfälle schreiben 
+1. [Janik] Testprotokolle schreiben und durchführen 
+1. [Claudia] Login / Zitate hinzufügen auf JSON
+1. [Claudia/Janik] SQL injections 
+1. [Alle]Kundenwünsche von Sprint 3 umsetzen 
 
 #### 04.12.2017 (Sprint 5)
 1. Task 1
