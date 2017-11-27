@@ -8,6 +8,7 @@
 		<title>Zitate</title>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
 		<link href="css/layout.css" type="text/css" rel="stylesheet">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
@@ -26,11 +27,9 @@
 		<!-- Beginn of Jumbotron -->
 		<div class="container">
  			<div class="jumbotron vertical-center" id="messageBlock">
-    			<div class="page-header">
   				<h1 id="quote"></h1>
-				</div>
-			<p id="author"></p>
-			<p id="date"></p>
+			<h3 id="author">></h3>
+			<h3 id="date">></h3>
   			</div>
   		</div>
 	</body>
