@@ -41,8 +41,8 @@
 1. [Stephan/Manuel] Ejects, Daten-API einbinden 
 1. [Janik] Testfälle schreiben 
 1. [Janik] Testprotokolle schreiben & durchführen
-1. [Claudia] Login / Zitate hinzufügen auf JSON
-1. [Claudia] SQL injections 
+1. [Claudia] Biographie / Zitate hinzufügen auf JSON
+1. [Springer] SQL injections 
 1. [Springer]Kundenwünsche von Sprint 3 umsetzen 
 1. [Manuel] Random Background einfügen, Funktion dazu erstellen, Bilder formatieren
 
