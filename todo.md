@@ -3,7 +3,7 @@
 | 1        | 7         | 0          | 7     |
 | 2        | 9         | 1          | 8     |
 | 3        | 8         | 1          | 7     |
-| 4        | 5         | xx         | xx    |
+| 4        | 7         | 3          | 4     |
 | 5        | xx        | xx         | xx    |
 
 # Todo
@@ -40,10 +40,11 @@
 #### 27.11.2017 (Sprint 4)
 1. [Stephan/Manuel] Ejects, Daten-API einbinden 
 1. [Janik] Testfälle schreiben 
-1. [Janik] Testprotokolle schreiben und durchführen 
-1. [Claudia] Login / Zitate hinzufügen auf JSON
-1. [Claudia/Janik] SQL injections 
-1. [Alle]Kundenwünsche von Sprint 3 umsetzen 
+1. [Janik] Testprotokolle schreiben & durchführen
+1. [Claudia] Biographie / Zitate hinzufügen auf JSON
+1. [Springer] SQL injections 
+1. [Springer] Kundenwünsche von Sprint 3 umsetzen 
+1. [Manuel] Random Background einfügen, Funktion dazu erstellen, Bilder formatieren
 
 #### 04.12.2017 (Sprint 5)
 1. Task 1
@@ -80,9 +81,10 @@
 1. [Claudia] Dokumentation weiter ausbauen
 
 #### 27.11.2017 (Sprint 4)
-1. Task 1
-1. Task 1
-1. Task 1
+1. [Stephan/Manuel] Ejects, Daten-API einbinden 
+1. [Janik] Testfälle schreiben 
+1. [Janik] Testprotokolle schreiben & durchführen
+1. [Manuel] Random Background einfügen, Funktion dazu erstellen, Bilder formatieren
 
 #### 04.12.2017 (Sprint 5)
 1. Task 1
