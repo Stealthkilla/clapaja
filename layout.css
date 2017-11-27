@@ -2,30 +2,30 @@
 html, body {
 	background: url(../images/Killarney.National.Park.jpg) no-repeat;
 	height: 100%;
-	font-size: 50px;
+	font-size: 1.5em;
 }
 
 nav{
-	font-size: 50%;
+	font-size: 70%;
 }
 
-#zitatbox {
-	background-color: #6E6E6E;
-	opacity: 30;
-    position: absolute;
-	width: 900px;
-	height: 250px;
-	top: 30%;
-	left: 25%;
-	margin-top: -75px;
-	margin-left: -100px;
-}
 
 h1 {
-	color: #000000;
-	font-family: "Arial";
-	font-size: 20%;
-	text-align: center;
-	padding-top: 50px;
+	font-family: helvetica
 }
 
+.jumbotron{
+	background: #22d8cf;
+	color: black;
+	opacity: 20%;
+}
+
+#messageBlock h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 100%;
+}
+
+.jumbotron p{
+	font-family: 'Pacifico', cursive;
+	font-size: 85%;
+}
