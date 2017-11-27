@@ -3,4 +3,4 @@
    $datenbank = 'educati3_citationdb';
    $user = 'educati3_quote';
    $passwd = 'qu0t_';
-?>
+  ?>
