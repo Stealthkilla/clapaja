@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: application/json; charset=utf8');
 // Datenbank Variablen
-$datenbank = 'citationdb';
+$datenbank = 'educati3_citationdb';
 require_once ('inc/dbconnect.php');
 
 // Datenbank-Abfrage Zitat abrufen
