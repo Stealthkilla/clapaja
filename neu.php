@@ -13,14 +13,14 @@
 	<body>
 		<div class="container">
  			<div class="jumbotron vertical-center" id="messageBlock">
-				<p><label>Zitat: <input type="text" name="zitat" class="zitat" autofocus></label></p>
-		        <p><label>Autor: <input type="text" name="author" class="zitat"></label></p>
-		        <p><label>Themengebiet: <input type="text" name="topic" class="zitat"></label></p>
-		        <p><label>Geburtsdatum: <input type="date" name="birthdate" class="zitat"></label></p>
-		        <p><label>Todesdatum: <input type="date" name="deathdate" class="zitat"></label></p>
-		        <p><label>Biography: <input type="text" name="bio" class="zitat"></label></p>
+				<p><label>Zitat: <input type="text" id="zitat" name="zitat" class="zitat" autofocus></label></p>
+		        <p><label>Autor: <input type="text" id="author" name="author" class="zitat"></label></p>
+		        <p><label>Themengebiet: <input type="text" id="topic" name="topic" class="zitat"></label></p>
+		        <p><label>Geburtsdatum: <input type="date" id="birthdate" name="birthdate" class="zitat"></label></p>
+		        <p><label>Todesdatum: <input type="date" id="deathdate" name="deathdate" class="zitat"></label></p>
+		        <p><label>Biography: <input type="text" id="bio" name="bio" class="zitat"></label></p>
 			
-			<p><input type="button" value="Hinzufügen"></p>
+			<p><input type="button" id="submit" value="Hinzufügen"></p>
   			</div>
   		</div>
   
@@ -28,14 +28,23 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 	<script>
-		$.getJSON( "php/neudata.php", function(json) {
-  			console.log( "JSON Data: " + json );
-  			$("#zitat").text(json.quote);
-  			$("#author").text(json.author);
-  			$("#topic").text(json.topic);
-  			$("#birthdate").text(json.abirthdate);
-  			$("#deathdate").text(json.deathdate);
-  			$("#bio").text(json.biography);
-		 });
+		
+	$( "#submit" ).bind( "click", function() {
+	  	sendData();
+	});
+	
+	function sendData() {
+		$.post( "php/neudata.php", { 
+			zitat: $('#zitat').value,
+			author: $('#author').value,
+			topic: $('#topic').value,
+			birthdate: $('#birthdate').value,
+			deathdate: $('#deathdate').value,
+			bio: $('#bio').value
+		})
+		.done(function( data ) {
+			alert( "Data Loaded: " + data );
+		});
+	}
  	</script>
 </html>
