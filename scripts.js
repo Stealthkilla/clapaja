@@ -13,7 +13,9 @@ $(document).ready(
 					$("#quote").text(json.quote);
 					$("#author").text(json.aname);
 					$("#date").text(json.abirthdate);
+					$("messageBlock").attr("data", json.id);
 					$("#hitCounter").text(json.hit);
+					$("#likeCounter").text(json.like);
 				});
 			}
 			// Alter Background Image
@@ -29,6 +31,11 @@ $(document).ready(
 									+ "')");
 				});
 			}
+			// Like citation counter
+			function likeCounter(){
+				$.post("like.php", { id: $("messageBlock").attr("data");} );
+			}
+					 
 			// Load data on document ready
 			// loadData();
 			// Reload data after an intervall

@@ -54,7 +54,7 @@
 					</div>
 	<!-- Beginn of Jumbotron -->
 	<div class="container">
-		<div class="jumbotron vertical-center" id="messageBlock">
+		<div data="ID" class="jumbotron vertical-center" id="messageBlock">
 			<h1 id="quote"></h1>
 			<h3 id="author">></h3>
 			<h3 id="date">></h3>
