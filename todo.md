@@ -88,9 +88,10 @@
 1. [Claudia/Janik] SQL injections 
 
 #### 04.12.2017 (Sprint 5)
-1. Task 1
-1. Task 1
-1. Task 1
+1. [Stephan/Janik/Manuel] Like-Button hinzufügen (Funktion & Design)
+1. [Stephan] Login-Funktion implementieren
+1. [Stephan] Web-Design optimieren
+1. [Janik/Manuel] Hit-Statisktik
 
 # Hints
 Markdown Syntax
