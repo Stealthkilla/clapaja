@@ -3,7 +3,7 @@
 | 1        | 7         | 0          | 7     |
 | 2        | 9         | 1          | 8     |
 | 3        | 8         | 1          | 7     |
-| 4        | 5         | xx         | xx    |
+| 4        | 6         | 2          | 4     |
 | 5        | xx        | xx         | xx    |
 
 # Todo
@@ -46,9 +46,11 @@
 1. [Alle]Kundenwünsche von Sprint 3 umsetzen 
 
 #### 04.12.2017 (Sprint 5)
-1. Task 1
-1. Task 1
-1. Task 1
+1. [Stephan/Janik/Manuel] Like-Button hinzufügen (Funktion & Design)
+1. [Stephan] Login-Funktion implementieren
+1. [Claudia] Add-Funktion implementieren mit Formular
+1. [Stephan] Web-Design optimieren
+1. [Janik/Manuel] Hit-Statisktik
 
 
 # Dones
@@ -80,9 +82,10 @@
 1. [Claudia] Dokumentation weiter ausbauen
 
 #### 27.11.2017 (Sprint 4)
-1. Task 1
-1. Task 1
-1. Task 1
+1. [Stephan/Manuel] Ejects, Daten-API einbinden 
+1. [Janik] Testfälle schreiben 
+1. [Janik] Testprotokolle schreiben und durchführen 
+1. [Claudia/Janik] SQL injections 
 
 #### 04.12.2017 (Sprint 5)
 1. Task 1
