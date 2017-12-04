@@ -59,7 +59,7 @@
 			<h3 id="author">></h3>
 			<h3 id="date">></h3>
 			<br>
-			<a>Hits: <?php $hitCounter?></a>
+			<h4 id="hitCounter"></h4>
 			<br>
 			<span class="likebtn-wrapper" data-theme="greenred" data-lang="de" data-i18n_like="Like" data-ef_voting="bounce" data-identifier="item_1"></span>
 		</div>

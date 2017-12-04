@@ -13,6 +13,7 @@ $(document).ready(
 					$("#quote").text(json.quote);
 					$("#author").text(json.aname);
 					$("#date").text(json.abirthdate);
+					$("#hitCounter").text(json.hit);
 				});
 			}
 			// Alter Background Image
