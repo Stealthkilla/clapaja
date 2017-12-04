@@ -13,18 +13,22 @@
 	<body>
 		<div class="container">
  			<div class="jumbotron vertical-center" id="messageBlock">
-				<p><label>Zitat: <input type="text" id="zitat" name="zitat" class="zitat" autofocus></label></p>
-		        <p><label>Autor: <input type="text" id="author" name="author" class="zitat"></label></p>
-		        <p><label>Themengebiet: <input type="text" id="topic" name="topic" class="zitat"></label></p>
-		        <p><label>Geburtsdatum: <input type="date" id="birthdate" name="birthdate" class="zitat"></label></p>
-		        <p><label>Todesdatum: <input type="date" id="deathdate" name="deathdate" class="zitat"></label></p>
-		        <p><label>Biography: <input type="text" id="bio" name="bio" class="zitat"></label></p>
+				<form method="post" action="neu.php" accept-charset="utf-8">
+					<p><label>Zitat: <input type="text" id="zitat" name="zitat" class="zitat" autofocus></label></p>
+					<p><label>Autor: <input type="text" id="author" name="author" class="zitat"></label></p>
+					<p><label>Themengebiet: <input type="text" id="topic" name="topic" class="zitat"></label></p>
+					<p><label>Geburtsdatum: <input type="date" id="birthdate" name="birthdate" class="zitat"></label></p>
+					<p><label>Todesdatum: <input type="date" id="deathdate" name="deathdate" class="zitat"></label></p>
+					<p><label>Biography: <input type="text" id="bio" name="bio" class="zitat"></label></p>
 			
-			<p><input type="button" id="submit" value="Hinzufügen"></p>
-  			</div>
+					<p><input type="submit" value="Hinzufügen"></p>
+					<p><input type="reset" value="Zurücksetzen"></p>
+				</form>
+			</div>
   		</div>
   
 	</body>
+	
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 	<script>
