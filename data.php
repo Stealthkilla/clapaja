@@ -1,8 +1,8 @@
 <?php
 header('Content-Type: application/json; charset=utf8');
 // Datenbank Variablen
-$datenbank = 'educati3_citationdb';
-require_once ('inc/db_inc.php');
+$host = 'cust-mysql-123-20';
+require_once ('../inc/db_inc.php');
 
 // Datenbank-Abfrage Zitat abrufen
 $conn = new mysqli($host, $user, $passwd, $datenbank);
@@ -12,7 +12,7 @@ $zitat = mysqli_fetch_assoc($abfrage);
 
 
 
-$citationID = $zitat[citation.ID]		
+$citationID = $zitat["citation.ID"];	
 $hitAbfrage = "UPDATE citation
 				SET hit = hit + 1
 					WHERE ID = '$citationID'";
