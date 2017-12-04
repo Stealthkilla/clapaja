@@ -33,7 +33,7 @@ $(document).ready(
 			}
 			// Like citation counter
 			function likeCounter(){
-				$.post("like.php", { id: $("messageBlock").attr("data");} );
+				$.post("like.php", { id: $("messageBlock").attr("data")} );
 			}
 					 
 			// Load data on document ready
