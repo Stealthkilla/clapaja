@@ -12,16 +12,10 @@ $abfrage = mysqli_query($conn, "SELECT citation.ID, citation.quote,
 
 $zitat = mysqli_fetch_assoc($abfrage);
 
-
-
-<<<<<<< HEAD
-$citationID = $zitat["citation.ID"];		
-=======
-$citationID = $zitat["citation.ID"];	
->>>>>>> 41d15117e1a400051e17545e46d1569aa054d3ee
+$citationID = $zitat["ID"];		
 $hitAbfrage = "UPDATE citation
 				SET hit = hit + 1
-					WHERE ID = '$citationID'";
+					WHERE ID = '".$citationID."'";
 $abfrage = mysqli_query($conn, $hitAbfrage);					
 // Verbindung trennen
 mysqli_close ($conn);
